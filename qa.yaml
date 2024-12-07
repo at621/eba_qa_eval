@@ -1,0 +1,123 @@
+- id: 1
+  question: |
+      For the treatment of cured defaulted exposures, a probation period of 90 days with no default triggers 
+      must apply before the exposure is moved back to a non-defaulted status. According to Article 178(1)(b CRR) 
+      default shall be considered to have occurred with regard to a particular obligor when the obligor is more 
+      than 90 days past due on any material credit obligation. However, if the material arrears fall below the 
+      thresholds, the arrears counter will reset to 0. Should the probation period of 90 days with no default 
+      triggers apply before the exposure is moved back to a non-defaulted status?
+  context: |
+      Source 1: CRR Article 178 > Default of an obligor
+
+      1. A default shall be considered to have occurred with regard to a particular obligor when either or 
+      both of the following have taken place:
+        (a) the institution considers that the obligor is unlikely to pay its credit obligations to the institution, 
+        the parent undertaking or any of its subsidiaries in full, without recourse by the institution to actions 
+        such as realising security;
+        (b) the obligor is past due more than 90 days on any material credit obligation to the institution, the 
+        parent undertaking or any of its subsidiaries. Competent authorities may replace the 90 days with 180 days 
+        for exposures secured by residential or SME commercial real estate in the retail exposure class, as well as 
+        exposures to public sector entities). The 180 days shall not apply for the purposes of Article 127.
+
+        In the case of retail exposures, institutions may apply the definition of default laid down in points (a) 
+        and (b) of the first subparagraph at the level of an individual credit facility rather than in relation to 
+        the total obligations of a borrower.
+
+      2. The following shall apply for the purposes of point (b) of paragraph 1:
+        (a) for overdrafts, days past due commence once an obligor has breached an advised limit, has been advised 
+        a limit smaller than current outstandings, or has drawn credit without authorisation and the underlying 
+        amount is material;
+        (b) for the purposes of point (a), an advised limit comprises any credit limit determined by the institution 
+        and about which the obligor has been informed by the institution;
+        (c) days past due for credit cards commence on the minimum payment due date;
+        (d) materiality of a credit obligation past due shall be assessed against a threshold, defined by the 
+        competent authorities. This threshold shall reflect a level of risk that the competent authority considers 
+        to be reasonable;
+        (e) institutions shall have documented policies in respect of the counting of days past due, in particular 
+        in respect of the re-ageing of the facilities and the granting of extensions, amendments or deferrals, 
+        renewals, and netting of existing accounts. These policies shall be applied consistently over time, and 
+        shall be in line with the internal risk management and decision processes of the institution.
+
+        3. For the purpose of point (a) of paragraph 1, elements to be taken as indications of unlikeliness to 
+        pay shall include the following:
+        (a) the institution puts the credit obligation on non-accrued status;
+        (b) the institution recognises a specific credit adjustment resulting from a significant perceived decline 
+        in credit quality subsequent to the institution taking on the exposure;
+        (c) the institution sells the credit obligation at a material credit-related economic loss;
+        (d) the institution consents to a distressed restructuring of the credit obligation where this is likely 
+        to result in a diminished financial obligation caused by the material forgiveness, or postponement, of 
+        principal, interest or, where relevant fees. This includes, in the case of equity exposures assessed under 
+        a PD/LGD Approach, distressed restructuring of the equity itself;
+        (e) the institution has filed for the obligor's bankruptcy or a similar order in respect of an obligor's 
+        credit obligation to the institution, the parent undertaking or any of its subsidiaries;
+        (f) the obligor has sought or has been placed in bankruptcy or similar protection where this would avoid 
+        or delay repayment of a credit obligation to the institution, the parent undertaking or any of its subsidiaries.
+
+        4. Institutions that use external data that is not itself consistent with the definition of default laid 
+        down in paragraph 1, shall make appropriate adjustments to achieve broad equivalence with the definition of default.
+
+        5. If the institution considers that a previously defaulted exposure is such that no trigger of default 
+        continues to apply, the institution shall rate the obligor or facility as they would for a non-defaulted exposure. 
+        Where the definition of default is subsequently triggered, another default would be deemed to have occurred.
+
+        6. EBA shall develop draft regulatory technical standards to specify the conditions according to which a 
+        competent authority shall set the threshold referred to in paragraph 2(d).
+
+        7. EBA shall issue guidelines on the application of this Article. Those guidelines shall be adopted in accordance 
+        with Article 16 of Regulation (EU) No 1093/2010.
+
+        ==========================
+        Source 2 > EBA DoD Guidelines > Criteria for the return to a nondefaulted status > Minimum conditions for reclassification 
+        to a non-defaulted status
+
+        71. For the purposes of the application of Article 178(5) of Regulation (EU) 575/2013, except for
+        situations referred to in paragraph 72, institutions should apply all of the following:
+        (a) consider that no trigger of default continues to apply to a previously defaulted
+        exposure, where at least 3 months have passed since the moment that the conditions
+        referred to in Articles 178(1)(b) and 178(3) of Regulation (EU) No 575/2013 cease to
+        be met;
+        (b) take into account the behaviour of the obligor during the period referred to in point (a);
+        (c) take into account the financial situation of the obligor during the period referred to in
+        point (a);
+        (d) after the period referred to in point (a), perform an assessment, and, where the
+        institution still finds that the obligor is unlikely to pay its obligations in full without
+        recourse to realising security, the exposures should continue to be classified as
+        defaulted until the institution is satisfied that the improvement of the credit quality is
+        factual and permanent;
+        (e) the conditions referred to in points (a) to (d) should be met also with regard to new
+        exposures to the obligor, in particular where the previous defaulted exposures to this
+        obligor were sold or written off.
+        Institutions may apply the period referred to in point (a) to all exposures or apply different
+        periods for different types of exposures.
+        
+        72. For the purposes of the application of Article 178(5) of Regulation (EU) 575/2013, and where
+        distressed restructuring according to paragraph 49 of these guidelines applies to a defaulted
+        exposure, regardless of whether such restructuring was carried out before or after the
+        identification of default, institutions should consider that no trigger of default continues to
+        apply to a previously defaulted exposure, where at least 1 year has passed from the latest
+        between one of the following events:
+        (a) the moment of extending the restructuring measures;
+        (b) the moment when the exposure has been classified as defaulted;
+        (c) the end of the grace period included in the restructuring arrangements. 
+
+  expected: |
+      Minimum conditions for reclassification of a defaulted exposure or obligor to a non-defaulted status, 
+      for the purposes of the application of Article 178(5) of Regulation (EU) 575/2013 (CRR), are specified 
+      in the Guidelines on the application of the definition of default under Article 178 of Regulation (EU) 
+      No 575/2013 (EBA/GL/2016/07).
+
+      Except for situations referred to in paragraph 72 of said Guidelines (distressed restructuring on a 
+      defaulted exposure is subject to a probation period of at least one year – see also Q&A 4867), all 
+      conditions from paragraph 71 of such Guidelines should be satisfied for the reclassification of a 
+      defaulted exposure or obligor to a non-defaulted status.
+
+      As no trigger of default should continue to apply during a 3-months minimum probation period in accordance 
+      with point (a) of paragraph 71 of the Guidelines, no indication of unlikeliness to pay should be met in 
+      accordance with Article 178(1)(a) CRR and no material amount should be past due in accordance with point 
+      (b) of Article 178(1) CRR during this period.
+
+      Furthermore, as part of the assessment required by point (d)  (d) of paragraph 71 of the Guidelines, 
+      point (b) of that paragraph paragraph  required that the institution takes into account the behavior 
+      of the obligor during this probation period before reclassifying a defaulted exposure to non-defaulted status, 
+      and thus the institution should consider any  past due amount during this period in the analysis of the 
+      behavior of the obligor.
